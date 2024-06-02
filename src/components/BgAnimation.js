@@ -16,7 +16,7 @@ const BgAnimation = () => {
         ease: 'easeInOut',
         delay: 0.2
      }}
-    className='bg-gradient-to-b from-red-300 to-yellow-400 h-screen z-0 absolute left-0 top-0'>
+    className='absolute top-0 left-0 z-0 h-screen bg-gradient-to-b from-red-300 to-yellow-400'>
     </motion.div>
     <motion.div 
     iniitial={{
@@ -39,7 +39,8 @@ const BgAnimation = () => {
        rotateZ:20
     }}
     animate={{
-        x:0
+        x:0,
+       
     }}
     transition={{
         duration:1,
